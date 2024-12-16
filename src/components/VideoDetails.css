@@ -1,0 +1,54 @@
+/* src/components/VideoDetails.css */
+.video-details {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.video-title {
+    font-size: 24px; /* Large title size */
+    font-weight: bold; /* Bold title */
+    margin-bottom: 10px; /* Space below title */
+    color: #333; /* Darker color for better contrast */
+}
+
+.video-channel {
+    color: #555; /* Slightly lighter gray for the channel name */
+    margin-bottom: 5px; /* Space below channel name */
+    font-weight: bold; /* Bold for better visibility */
+}
+
+.video-description {
+    color: #333; /* Darker color for description */
+    margin-top: 10px; /* Space above description */
+    line-height: 1.5; /* Increased line height for readability */
+}
+
+.subscribe-button {
+    background-color: #ff0000; /* YouTube red for subscribe button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Match font size for consistency */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    margin-top: 10px; /* Space above the button */
+}
+
+.subscribe-button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
+
+/* Style for the three vertical dots menu */
+.three-dots {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+    color: #555; /* Gray color */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.three-dots:hover {
+    color: #ff0000; /* Change to red on hover */
+}
